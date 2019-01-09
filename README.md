@@ -4,6 +4,6 @@ This is a deep learning visualization tool which can Deserialize Keras Json mode
 
 <img src="LayerAndModelClassObject.png" alt="Layer and Model" class="inline" width=308 height=882/>
 <img src="deepVis.png" alt="DeepVis" class="inline" width=648 height=391/>
-<img src="Code.png" alt="Json" class="inline" />
+<img src="Code.png" alt="Json" class="inline" width=167 height=255/>
 
 
