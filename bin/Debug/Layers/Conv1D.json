@@ -1,0 +1,22 @@
+{
+  "name": "conv1d",
+  "class_name": "Conv1D",
+  "inbound_nodes": [ ],
+  "config": {
+    "visibleParams": [ "name", "sparse", "dtype", "batch_input_shape", "name", "sparse", "dtype", "batch_input_shape" ],
+    "name": null,
+    "sparse": false,
+    "dtype": null,
+    "batch_input_shape": [ ]
+  },
+  "nodeConfig": {
+    "width": 70.0,
+    "height": 70.0,
+    "incomingPorts": [
+      { "name": "in" }
+    ],
+    "outgoingPorts": [
+      { "name": "out" }
+    ]
+  }
+}

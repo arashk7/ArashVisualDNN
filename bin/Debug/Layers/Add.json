@@ -1,0 +1,22 @@
+{
+  "name": "add",
+  "class_name": "Add",
+  "inbound_nodes": [ ],
+  "config": {
+    "name": null,
+    "show_name": true,
+    "trainable": false,
+    "show_trainable": true,
+  },
+  "nodeConfig": {
+    "width": 70.0,
+    "height": 70.0,
+    "incomingPorts": [
+      { "name": "in_1" },
+      { "name": "in_2" }
+    ],
+    "outgoingPorts": [
+      { "name": "out_1" }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArashVisualDNNEditor_1.Model">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ArashVisualDNNEditor_1.Model.Config">
+        <TypeIdentifier>
+          <NewMemberFileName>Model.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArashVisualDNNEditor_1.Layer">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ArashVisualDNNEditor_1.Layer.Config">
+        <Compartments>
+          <Compartment Name="Methods" Collapsed="true" />
+          <Compartment Name="Fields" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="ArashVisualDNNEditor_1.Layer.Config.Kernel_initializer">
+            <Compartments>
+              <Compartment Name="Properties" Collapsed="true" />
+              <Compartment Name="Methods" Collapsed="true" />
+              <Compartment Name="Nested Types" Collapsed="false" />
+            </Compartments>
+            <NestedTypes>
+              <Class Name="ArashVisualDNNEditor_1.Layer.Config.Kernel_initializer.Config">
+                <Compartments>
+                  <Compartment Name="Properties" Collapsed="true" />
+                </Compartments>
+                <TypeIdentifier>
+                  <NewMemberFileName>Layer.cs</NewMemberFileName>
+                </TypeIdentifier>
+              </Class>
+            </NestedTypes>
+            <TypeIdentifier>
+              <NewMemberFileName>Layer.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="ArashVisualDNNEditor_1.Layer.Config.Bias_initializer">
+            <Compartments>
+              <Compartment Name="Properties" Collapsed="true" />
+              <Compartment Name="Methods" Collapsed="true" />
+              <Compartment Name="Nested Types" Collapsed="false" />
+            </Compartments>
+            <NestedTypes>
+              <Class Name="ArashVisualDNNEditor_1.Layer.Config.Bias_initializer.Config">
+                <Compartments>
+                  <Compartment Name="Properties" Collapsed="true" />
+                </Compartments>
+                <TypeIdentifier>
+                  <NewMemberFileName>Layer.cs</NewMemberFileName>
+                </TypeIdentifier>
+              </Class>
+            </NestedTypes>
+            <TypeIdentifier>
+              <NewMemberFileName>Layer.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Layer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="ArashVisualDNNEditor_1.Layer.NodeConfig">
+        <Compartments>
+          <Compartment Name="Properties" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="ArashVisualDNNEditor_1.Layer.NodeConfig.Port" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Layer.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Layer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQCAAABAA=</HashCode>
+      <FileName>Layer.cs</FileName>
+      <NewMemberFileName>layer.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
