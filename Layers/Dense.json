@@ -1,0 +1,52 @@
+{
+  "name": "dense",
+  "class_name": "Dense",
+  "inbound_nodes": [ ],
+  "config": {
+    "name": "dense",
+    "show_name": true,
+    "trainable": true,
+    "show_trainable": false,
+    "activation": "linear",
+    "show_activation": true,
+    "use_bias": true,
+    "show_use_bias": true,
+    "kernel_initializer": {
+      "class_name": "VarianceScaling",
+      "config": {
+        "scale": 1.0,
+        "mode": "fan_avg",
+        "distribution": "uniform",
+        "seed": null
+      }
+    },
+    "show_kernel_initializer": true,
+    "bias_initializer": {
+      "class_name": "Zeros",
+      "config": null
+    },
+    "show_bias_initializer": true,
+    "kernel_regularizer": null,
+    "show_kernel_regularizer": true,
+    "bias_regularizer": null,
+    "show_bias_regularizer": true,
+    "activity_regularizer": null,
+    "show_activity_regularizer": true,
+    "kernel_constraint": null,
+    "show_kernel_constraint": true,
+    "bias_constraint": null,
+    "show_bias_constraint": true,
+    "units": 50,
+    "show_units": true
+  },
+   "nodeConfig": {
+    "width": 70.0,
+    "height": 70.0,
+    "incomingPorts": [
+      { "name": "in" }
+    ],
+    "outgoingPorts": [
+      { "name": "out" }
+    ]
+  }
+}

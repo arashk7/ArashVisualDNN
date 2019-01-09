@@ -1,0 +1,13 @@
+{
+  "name": "max_pooling3d",
+  "class_name": "MaxPooling3D",
+  "inbound_nodes": [ ],
+  "config": {
+    "name": "max_pooling3d",
+    "trainable": true,
+    "strides": [ 2, 2, 2 ],
+    "padding": "valid",
+    "data_format": "channels_last",
+    "pool_size": [ 2, 2, 2 ]
+  }
+}

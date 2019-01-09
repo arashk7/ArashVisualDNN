@@ -1,0 +1,11 @@
+{
+  "name": "flatten",
+  "class_name": "Flatten",
+  "inbound_nodes": [ ],
+  "config": {
+    "name": "flatten",
+    "show_name": true,
+    "trainable": true,
+    "show_trainable": true
+  }
+}

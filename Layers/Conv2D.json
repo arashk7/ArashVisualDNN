@@ -1,0 +1,60 @@
+{
+  "name": "conv2d",
+  "class_name": "Conv2D",
+  "inbound_nodes": [ ],
+  "config": {
+    "visibleParams": [
+      "name",
+      "trainable",
+      "filters",
+      "kernel_size",
+      "strides",
+      "padding",
+      "dilation_rate",
+      "activation",
+      "use_bias",
+      "kernel_initializer",
+      "bias_initializer",
+      "kernel_regularizer",
+      "bias_regularizer",
+      "activity_regularizer",
+      "kernel_constraint",
+      "bias_constraint"
+    ],
+    "name": "conv2d",
+    "trainable": true,
+    "filters": 32,
+    "kernel_size": [ 2, 2 ],
+    "strides": [ 1, 1 ],
+    "padding": "same",
+    "dilation_rate": [ 1, 1 ],
+    "activation": "linear",
+    "use_bias": true,
+    "kernel_initializer": {
+      "class_name": "VarianceScaling",
+      "config": {
+        "scale": 1.0,
+        "mode": "fan_avg",
+        "distribution": "uniform",
+        "seed": null
+      }
+    },
+    "bias_initializer": {
+      "class_name": "Zeros",
+      "config": null
+    },
+    "kernel_regularizer": null,
+    "bias_regularizer": null,
+    "activity_regularizer": null,
+    "kernel_constraint": null,
+    "bias_constraint": null
+  },
+  "nodeConfig": {
+    "width": 70.0,
+    "height": 70.0,
+    "incomingPorts": [
+      { "name": "in" }
+    ],
+    "outgoingPorts": [ { "name": "out" } ]
+  }
+}

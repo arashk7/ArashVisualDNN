@@ -1,0 +1,1 @@
+{"name":"max_pooling1d","class_name":"MaxPooling1D","inbound_nodes":[],"config":{"name":"max_pooling1d","trainable":true,"strides":[2],"padding":"valid","pool_size":[2]}}

@@ -1,0 +1,29 @@
+{
+  "name": "max_pooling2d",
+  "class_name": "MaxPooling2D",
+  "inbound_nodes": [ ],
+  "config": {
+    "name": "max_pooling2d",
+    "show_name": true,
+    "trainable": true,
+    "show_trainable": true,
+    "strides": [ 2, 2 ],
+    "show_strides": true,
+    "padding": "same",
+    "show_padding": true,
+    "data_format": null,
+    "show_data_format": true,
+    "pool_size": [ 2, 2 ],
+    "show_pool_size": true
+  },
+  "nodeConfig": {
+    "width": 70.0,
+    "height": 70.0,
+    "incomingPorts": [
+      { "name": "in" }
+    ],
+    "outgoingPorts": [
+      { "name": "out" }
+    ]
+  }
+}
