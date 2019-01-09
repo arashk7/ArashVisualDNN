@@ -7,7 +7,7 @@ This is a deep learning visualization tool which can Deserialize Keras Json mode
 
 Editing layer's property using PropertyBar
 
-<img src="property.png" alt="property" class="inline" width=167 height=255/>
+<img src="property1.png" alt="property" class="inline" width=167 height=255/>
 
 Sample Output
 
